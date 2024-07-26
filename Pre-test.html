@@ -29,6 +29,37 @@
    <!-- favicons
 	================================================== -->
 	<link rel="icon" type="image/png" href="favicon.png">
+<style>
+	.image-row {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+	.figure {
+            text-align: center;
+        }
+	.container {
+            background-image: url('images/พื้นหลัง2.jpg');
+            background-size: cover; /* ปรับให้ภาพเต็มหน้าจอ */
+            background-repeat: no-repeat; /* ไม่ให้ภาพซ้ำ */
+            background-position: center; /* จัดตำแหน่งภาพให้อยู่กึ่งกลาง */
+        }
+	.hot {
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 20px; /* ระยะห่างระหว่างแถว */
+	}
+	.hot img {
+		border-radius: 15px;
+		max-width: 20%;
+		height: auto;
+		object-fit: cover;
+	}
+	.cold {
+		max-width: 800px; /* กำหนดความกว้างสูงสุดของแถว */
+		margin: 0 auto; /* จัดกึ่งกลาง */
+	}
+</style>
 
 </head>
 
@@ -42,14 +73,16 @@
    		<div class="top-bar">
    			<a class="menu-toggle" href="#"><span>Menu</span></a>
 		   	<nav id="main-nav-wrap">
-					<ul class="main-navigation">
-						<li ><a   href="index.html" title="">หน้าหลัก</a></li>
-						<li><a href="บทเรียน.html" title="">บทเรียน</a></li>
-						<li><a href="ควิช.html" title="">ควิช</a></li>					
-						<li><a href="ติดต่อ.html" title="">ติดต่อ</a></li>	
-									
-					</ul>
-				</nav>    		
+				<ul class="main-navigation">
+					<li class="current"> <a class="smoothscroll" title=""></a></li>
+					<li><a href="index.html" title="">หน้าหลัก</a></li>
+					<li><a href="Pre-test.html" title="">pre-test</a></li>
+					<li><a href="Learning.html" title="">Learning</a></li>					
+					<li><a href="Post-test.html" title="">Post-test</a></li>		
+					<li><a href="Document.html" title="">Document</a></li>	
+								
+				</ul>
+			</nav>    		
    		</div> <!-- /top-bar --> 
    		
    	</div> <!-- /row --> 		
@@ -66,7 +99,7 @@
 
    			<div class="col-twelve">
 
-	   			<h1>บทเรียน</h1>
+	   			<h1>Pre-test</h1>
 
 	   			<p class="intro-position">
 	   				<span></span>
@@ -85,15 +118,8 @@
 
    <!-- about section
    ================================================== -->
-   <section id="about">
-	<center>
-	<img src="images/สีชมพู และ สีเหลือง สนุกสนาน พาสเทล น่ารัก กิจกรรม จับผิดภาพ พรีเซนต์เทชั่นเกม.png" width="70%">
-	</center>  
-   	<div class="row section-intro">
-   		<div class="col-twelve">
-   			<h1>ชื่อบทเรียน</h1> 			
-   		</div>   		
-   	</div> <!-- /section-intro -->
+  
+	<img src="images/pre.jpg" width="100%">
 
 
 	
@@ -166,7 +192,7 @@
    			<h5>Where to find me</h5>
 
    			<p>
-            siam
+            38 Phet Kaseam Pd.Bang Wa Phasi Charoen, Bangkok 10160
             </p>
 
    		</div>
