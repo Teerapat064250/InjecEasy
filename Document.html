@@ -2,7 +2,7 @@ a<!DOCTYPE html>
 <!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
-<head>
+<head>   
 
    <!--- basic page needs
    ================================================== -->
@@ -73,9 +73,6 @@ a<!DOCTYPE html>
 	   			<p class="intro-position">
 	   				<span></span>
 	   			</p>
-
-	   			<a class="button stroke smoothscroll" href="#about" title="">ถัดไป</a>
-
 	   		</div>  
    			
    		</div>   		 		
@@ -83,7 +80,32 @@ a<!DOCTYPE html>
      	
 
    </section> <!-- /intro -->
-   <img src="images/doc.jpg" width="100%">
+   <style>
+	table {
+	  border-collapse: collapse; /* รวมเส้นขอบตารางเข้าด้วยกัน */
+	}
+	td {
+	  padding: 0; /* เอาระยะห่างขอบในออก */
+	  margin: 0; /* เอาระยะห่างขอบนอกออก */
+	}
+	img {
+	  display: block; /* ป้องกันช่องว่างที่เกิดจาก inline element */
+	}
+  </style>
+  
+  <table>
+	  <tr>
+		<td><a href="PDF/บทที่1.pdf" target="_blank"><img src="images/เอกสาร 1.png" alt="เอกสาร" width="800"></a></td>
+		<td><a href="PDF/บทที่2.pdf" target="_blank"><img src="images/เอกสาร 2.png" alt="Image 2" width="800"></a></td>
+	  </tr>
+	  <tr>
+		<td><a href="PDF/บทที่3.pdf" target="_blank"><img src="images/เอกสาร 3.png" alt="Image 3" width="800"></a></td>
+		<td><a href="PDF/บทที่4.pdf" target="_blank"><img src="images/เอกสาร 4.png" alt="Image 4" width="800"></a></td>
+	  </tr>
+  </table>
+  
+
+  
 
 
    <!-- about section
